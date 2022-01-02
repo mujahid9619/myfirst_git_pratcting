@@ -5,3 +5,7 @@
 *body{
     margin-top: 0;
 }
+
+*p{
+    border-color: black;
+}
