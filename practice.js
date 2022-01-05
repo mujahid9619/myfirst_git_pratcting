@@ -32,10 +32,10 @@ console.log((age.toString()));
 
 // assignment three
 
-var a = "coding";
-var b = "is";
-var c = "easy";
+var a = "coding" + " " + "is";
+var b = "easy";
 
-var letter = (a + b + c);
+var letter = (a +" "+ b);
 
 console.log(letter);
+
