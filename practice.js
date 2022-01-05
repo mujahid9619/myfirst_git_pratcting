@@ -12,3 +12,30 @@
 
 
 // i had put another headding in matter
+
+
+console.log("i am mujahid");
+
+//assignment one
+
+var DOB = 1988;
+var PY = 2022;
+
+var age = PY-DOB;
+
+console.log(age);
+
+// assignment two
+
+var age = 35;
+console.log((age.toString()));
+
+// assignment three
+
+var a = "coding";
+var b = "is";
+var c = "easy";
+
+var letter = (a + b + c);
+
+console.log(letter);
