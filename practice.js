@@ -28,7 +28,10 @@ console.log(age);
 // assignment two
 
 var age = 35;
-console.log((age.toString()));
+console.log(age.toString());
+
+var age ="38";
+console.log(Number(age));
 
 // assignment three
 
@@ -38,4 +41,13 @@ var b = "easy";
 var letter = (a +" "+ b);
 
 console.log(letter);
+
+// assignment four
+
+var english = 98;
+var telugu = 95;
+var hindi = 93;
+var totalmarks = english+telugu+hindi;
+
+console.log(totalmarks);
 
