@@ -122,7 +122,13 @@ console.log(one);
 
 var givenamount = 5000;
 var interet = 6.5 / 100;
-var time = 3**;
+var time = 3
+
+var interestandtime = interet*time;
+
+var compond = givenamount*interestandtime*3*1;
+
+console.log(compond);
 
 
 
