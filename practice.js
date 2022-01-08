@@ -56,12 +56,19 @@ console.log(months % 12);
 
 // assignment Eight
 
-var principleamount = 1000;
+/*var principleamount = 1000;
 var interestpercent = 6.5;
 var time = 12;
 
 var interst = principleamount%interestpercent;
-console.log(interst * time);
+console.log(interst * time);*/
+
+var principleAmount = 1000;
+var percentage = 6.5;
+var time = 2;
+
+var simpleInterest = (principleAmount * percentage * time)/100;
+console.log(simpleInterest);
 
 // assignment Nine
 
@@ -89,10 +96,33 @@ console.log(qnty);
 
 var itemprice1 = 80;
 var itemprice2 = 140;
-
 var qnty = (itemprice1*6 + itemprice2*3);
+var tip = 50;
+var tax5per = (qnty)*5/100+(tip);
+var tax8per = (qnty)*8/100+(tip);
+var total = tax5per+tax8per;
 
-var fivepercent = (qnty%100);
+console.log(total);
+
+// assignment Twelve
+
+var number = 8976;
+
+var thou = (8%1000)*1000;
+var hun = (9%100)*100;
+var ten = (7%10)*10;
+var one = (6)*1;
+
+console.log(thou);
+console.log(hun);
+console.log(ten);
+console.log(one);
+
+// assignment Thirteen
+
+var givenamount = 5000;
+var interet = 6.5 / 100;
+var time = 3**;
 
 
 
