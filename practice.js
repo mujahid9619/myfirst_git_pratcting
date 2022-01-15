@@ -119,22 +119,21 @@ console.log(ten);
 console.log(one);
 
 // assignment Thirteen
+var p = 5000;
+var i = 0.05;
+var n = 12;
+var t = 3;
+var co = 1+i/n;
+var total = p*co**n*3/n;
+console.log(total);
 
-var givenamount = 5000;
-var interet = 6.5 / 100;
-var time = 3
+// assignment 14
 
-var interestandtime = interet*time;
+year = 2022;
 
-var compond = givenamount*interestandtime*3*1;
+if ((year % 4==0 && year % 100 !=0) || year % 400==0){
+    console.log("This is Leap Year");
 
-console.log(compond);
+} else {console.log("This is Not Leap Year")};
 
-
-
-
-
-
-
-
-
+// assignment 15
