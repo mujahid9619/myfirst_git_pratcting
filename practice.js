@@ -129,7 +129,7 @@ console.log(total);
 
 // assignment 14
 
-year = 2022;
+year = 2024;
 
 if ((year % 4==0 && year % 100 !=0) || year % 400==0){
     console.log("This is Leap Year");
@@ -137,3 +137,28 @@ if ((year % 4==0 && year % 100 !=0) || year % 400==0){
 } else {console.log("This is Not Leap Year")};
 
 // assignment 15
+
+var birth = 1988;
+var latesYear = 2022;
+var age = latesYear - birth;
+
+if (age >= 18) {
+    console.log("Yes You can Vote");
+
+} else {
+    console.log("No You can't Vote");
+}
+
+// assignment 16
+
+var alp = "u";
+
+if (alp == "a" || alp == "e" || alp == "i" || alp == "o" || alp == "u") {
+    
+    console.log(alp + " is Vowel");
+   
+} else {
+    console.log(alp + " is Constant");
+}
+
+// assignment 17
