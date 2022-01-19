@@ -56,13 +56,6 @@ console.log(months % 12);
 
 // assignment Eight
 
-/*var principleamount = 1000;
-var interestpercent = 6.5;
-var time = 12;
-
-var interst = principleamount%interestpercent;
-console.log(interst * time);*/
-
 var principleAmount = 1000;
 var percentage = 6.5;
 var time = 2;
@@ -162,3 +155,36 @@ if (alp == "a" || alp == "e" || alp == "i" || alp == "o" || alp == "u") {
 }
 
 // assignment 17
+
+var pin = "500027";
+
+if (pin.length == 6) {
+    
+    console.log (pin + " This is valid pin");
+
+} else {console.log (pin + " This is Not valid pin");}
+
+// assignment 18
+
+var state = "Gujarat";
+switch (true) {
+
+    case (state == "Kerala"):
+    console.log (state + " is in SOUTH")
+    break;
+
+    case (state == "Gujarat"):
+    console.log (state + " is in WEST")
+    break;
+
+    case (state == "Assam"):
+    console.log (state + " is in EAST")
+    break;
+
+    case (state == "Haryana"):
+    console.log (state + " is in NORTH")
+    break;
+
+    default: 
+    console.log("Not Mentioned");
+}
