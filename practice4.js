@@ -166,27 +166,27 @@
 // Input - "Coding is Easy"
 // Output - 3
 
-var sentence = ["Coding", "is", "Easy"];
-console.log(sentence.length);
+// var sentence = ["Coding", "is", "Easy"];
+// console.log(sentence.length);
  
 
-let str = "Coding is Easy";
+// let str = "Coding is Easy";
 
-let word = "";
-let result = [];
+// let word = "";
+// let result = [];
 
-for (let i = 0; i < str.length; i++) {
-  if (str[i] == " ") {
-    result.push(word);
-    word = " ";
-  } else {
-    word += str[i];
-  }
-}
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] == " ") {
+//     result.push(word);
+//     word = " ";
+//   } else {
+//     word += str[i];
+//   }
+// }
 
-result.push(word);
+// result.push(word);
 
-console.log(result.length);
+// console.log(result.length);
 
 
 
@@ -196,7 +196,7 @@ console.log(result.length);
 
 let array = ["react", "html", "edstm"];
 let flag = "false";
-let word = "react";
+let word = "edstem";
 
 for (let i = 0; i < array.length; i++) {
   if (word === array[i]) {

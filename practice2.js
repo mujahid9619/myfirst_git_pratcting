@@ -20,15 +20,8 @@ if (age >= 18) {
 
 // Session-2 Assign-3
 
-var alp = "u";
 
-if (alp == "a" || alp == "e" || alp == "i" || alp == "o" || alp == "u") {
-    
-    console.log(alp + " is Vowel");
-   
-} else {
-    console.log(alp + " is Constant");
-}
+
 
 // Session-2 Assign-4
 
